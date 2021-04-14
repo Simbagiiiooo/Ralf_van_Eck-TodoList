@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to left, #01060f, #001b49, #002887, #002ac2, #4000f4);
+    color: rgb(236, 190, 105);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+header {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+}
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, form button {
+    padding: .5rem;
+    font-size: 2rem;
+    border: none;
+    background: wheat;
+    border-radius: .5rem;
+}
+form button {
+    color: green;
+    background: wheat;
+    cursor: pointer;
+}
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list  li{
+    min-width: 70%;
+    list-style: none;
+    margin: 0.5rem;
+    background: wheat;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+.checkbox{
+    display: inline-block;
+	position: relative;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.task-content{
+    margin: 2rem;  
+}
+.remove-icon{
+    padding: .5rem;
+    margin: .5rem;
+    cursor: pointer;
+    background: wheat;
+    box-shadow: 1px 1px 2px black;
+}
+.remove-icon:hover {
+    background: tomato;
+}
+.strikethrough {
+    text-decoration: line-through;
+    color: black
+}
+.change{
+    background-color: white;
+}
+.fa-trash{
+    font-size: 1rem;
+}
+.del-container {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.del-all-btn {
+    padding: .5rem;
+    font-size: 1rem;
+    background: wheat;
+    cursor: pointer;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 5px black;
+}
+.del-all-btn:hover {
+    background: tomato;
+}
